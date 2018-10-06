@@ -115,14 +115,17 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Member.h" />
+    <ClInclude Include="VipMember.h" />
     <ClInclude Include="VipMember0.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Member.cpp" />
     <ClCompile Include="MemberTest.cpp" />
     <ClCompile Include="SlimOff0.cpp" />
+    <ClCompile Include="VipMember.cpp" />
     <ClCompile Include="VipMember0.cpp" />
     <ClCompile Include="VipMember0Test.cpp" />
+    <ClCompile Include="VipMemberTest.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
